@@ -1,0 +1,20 @@
+{
+    "id": "sqlc",
+    "name": "sqlc",
+    "version": "1.0.0",
+    "description": "Generate type-safe code from SQL",
+    "documentationURL": "https://docs.sqlc.dev/en/stable",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "v1.21.0"
+            ],
+            "default": "v1.21.0",
+            "description": "Select or enter a sqlc version."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers-contrib/features/gh-release"
+    ]
+}
