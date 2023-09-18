@@ -1,5 +1,5 @@
 {
-    "hello": {
+    "sqlc_version": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
             "sqlc": {
