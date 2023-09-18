@@ -1,0 +1,10 @@
+{
+    "sqlc_version": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "sqlc": {
+                "version": "v1.21.0"
+            }
+        }
+    }
+}
