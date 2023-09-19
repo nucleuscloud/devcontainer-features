@@ -15,8 +15,8 @@ jobs:
         features:
           - sqlc
         baseImage:
-          - debian:latest
-          - ubuntu:latest
+          # - debian:latest
+          # - ubuntu:latest
           - mcr.microsoft.com/devcontainers/base:ubuntu
           - mcr.microsoft.com/devcontainers/base:debian
     steps:
