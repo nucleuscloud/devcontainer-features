@@ -25,7 +25,7 @@ $nanolayer_location \
         --option binaryNames="$binary_names" \
         --option version="$VERSION" \
         --option assetRegex='.*\.tar\.gz' \
-        --option libName='sqlc'
+        # --option libName='sqlc'
 
 
 
