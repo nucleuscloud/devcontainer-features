@@ -8,7 +8,7 @@ set -e
 
 binary_names="sqlc"
 
-source ./library_scripts.sh
+. ./library_scripts.sh
 
 # nanolayer is a cli utility which keeps container layers as small as possible
 # source code: https://github.com/devcontainers-contrib/nanolayer
@@ -16,12 +16,6 @@ source ./library_scripts.sh
 # and if missing - will download a temporary copy that automatically get deleted at the end
 # of the script
 ensure_nanolayer nanolayer_location "v0.5.3"
-
-# fetch latest version if needed
-if [ "${VERSION}" = "latest" ]; then
-    tag=$(curl -s https://api.github.com/repos/$ORG/$REPO/releases/latest | jq -r .tag_name)
-    export VERSION="${tag:1}"
-fi
 
 $nanolayer_location \
     install \
