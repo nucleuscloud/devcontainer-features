@@ -1,12 +1,6 @@
 #!/bin/bash -i
 
-VERSION="${VERSION:-"latest"}"
-ORG="sqlc-dev"
-REPO="sqlc"
-
 set -e
-
-binary_names="sqlc"
 
 . ./library_scripts.sh
 
@@ -22,11 +16,8 @@ $nanolayer_location \
     devcontainer-feature \
     "ghcr.io/devcontainers-contrib/features/gh-release:1.0.21" \
         --option repo='sqlc-dev/sqlc' \
-        --option binaryNames="$binary_names" \
+        --option binaryNames='sqlc' \
         --option version="$VERSION" \
         --option assetRegex='.*\.tar\.gz' \
-        # --option libName='sqlc'
-
-
 
 echo 'Done!'
