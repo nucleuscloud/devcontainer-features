@@ -18,7 +18,7 @@ source ./library_scripts.sh
 ensure_nanolayer nanolayer_location "v0.5.3"
 
 # fetch latest version if needed
-if [ "${VERSION}" = "latest" ] || [ "${VERSION}" = "lts" ]; then
+if [ "${VERSION}" = "latest" ] then
     tag=$(curl -s https://api.github.com/repos/$ORG/$REPO/releases/latest | jq -r .tag_name)
     export VERSION="${tag:1}"
 fi
