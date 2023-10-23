@@ -1,0 +1,21 @@
+{
+    "id": "helmfile",
+    "name": "helmfile",
+    "version": "0.1.0",
+    "description": "Declaratively deploy your Kubernetes manifests, Kustomize configs, and Charts as Helm releases.",
+    "documentationURL": "https://helmfile.readthedocs.io",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest",
+                "v0.158.0"
+            ],
+            "default": "latest",
+            "description": "Select or enter a helmfile version."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers-contrib/features/gh-release"
+    ]
+}

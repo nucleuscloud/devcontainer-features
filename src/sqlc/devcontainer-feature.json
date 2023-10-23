@@ -1,7 +1,7 @@
 {
     "id": "sqlc",
     "name": "sqlc",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Generate type-safe code from SQL",
     "documentationURL": "https://docs.sqlc.dev/en/stable",
     "options": {
