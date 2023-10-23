@@ -3,7 +3,7 @@
     "name": "ctlptl",
     "version": "0.1.0",
     "description": "Making local Kubernetes clusters fun and easy to set up",
-    "documentationURL": "https://docs.sqlc.dev/en/stable",
+    "documentationURL": "https://github.com/tilt-dev/ctlptl",
     "options": {
         "version": {
             "type": "string",
