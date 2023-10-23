@@ -1,0 +1,10 @@
+{
+    "ctlptl_version": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "ctlptl": {
+                "version": "v0.8.22"
+            }
+        }
+    }
+}
