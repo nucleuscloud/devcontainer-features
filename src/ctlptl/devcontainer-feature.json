@@ -1,0 +1,21 @@
+{
+    "id": "ctlptl",
+    "name": "ctlptl",
+    "version": "0.1.0",
+    "description": "Making local Kubernetes clusters fun and easy to set up",
+    "documentationURL": "https://docs.sqlc.dev/en/stable",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest",
+                "v0.8.22"
+            ],
+            "default": "latest",
+            "description": "Select or enter a ctlptl version."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers-contrib/features/gh-release"
+    ]
+}
