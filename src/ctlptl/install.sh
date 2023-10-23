@@ -15,8 +15,8 @@ $nanolayer_location \
     install \
     devcontainer-feature \
     "ghcr.io/devcontainers-contrib/features/gh-release:1.0.24" \
-        --option repo='sqlc-dev/sqlc' \
-        --option binaryNames='sqlc' \
+        --option repo='tilt-dev/ctlptl' \
+        --option binaryNames='ctlptl' \
         --option version="$VERSION" \
         --option assetRegex='.*\.tar\.gz' \
 
