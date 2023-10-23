@@ -15,6 +15,7 @@ jobs:
         features:
           - sqlc
           - ctlptl
+          - helmfile
         baseImage:
           # - debian:latest
           # - ubuntu:latest
@@ -37,6 +38,7 @@ jobs:
         features:
           - sqlc
           - ctlptl
+          - helmfile
     steps:
       - uses: actions/checkout@v3
 
